@@ -76,6 +76,9 @@ export default function App() {
             animationDelay: '0.05s'
           }}
         >
+          <p className="text-sm font-semibold mb-3 text-center" style={{ color: 'var(--text-secondary)' }}>
+            What's your gut telling you?
+          </p>
           <DecisionLogger onLog={handleLog} />
         </section>
 

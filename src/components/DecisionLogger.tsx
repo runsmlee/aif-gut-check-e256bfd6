@@ -46,7 +46,7 @@ export function DecisionLogger({ onLog }: DecisionLoggerProps) {
               setText(e.target.value)
               if (error) setError(false)
             }}
-            placeholder="What did you just decide?"
+            placeholder="Should I raise now or wait 6 months?"
             className={`w-full px-4 py-3.5 text-base rounded-xl transition-all duration-200 placeholder:text-gray-400 ${
               error
                 ? 'border-2 border-brand-500 bg-brand-50'
