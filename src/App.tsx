@@ -77,7 +77,7 @@ export default function App() {
           }}
         >
           <p className="text-sm font-semibold mb-3 text-center" style={{ color: 'var(--text-secondary)' }}>
-            What's your gut telling you?
+            Log a decision. See if your gut was right.
           </p>
           <DecisionLogger onLog={handleLog} />
         </section>
